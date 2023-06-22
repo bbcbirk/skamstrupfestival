@@ -1,0 +1,41 @@
+# Application
+web/app/languages/*
+!web/app/languages/plugins
+web/app/languages/plugins/*
+web/app/plugins/*
+!web/app/plugins/skamstrupfestival*/
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+web/app/ewww
+web/app/themes/twentytwentythree/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+web/app/cache/*
+
+# WordPress
+web/wp
+web/.htaccess
+
+# Logs
+*.log
+
+# Dotenv
+!.env
+.env.*
+!.env.example
+
+# Composer
+/vendor
+
+# WP-CLI
+wp-cli.local.yml
+
+# Old WP
+/readme.html
+/*.php
+/*.sql
+/license.txt
+/wp-admin/
+/wp-content/
+/wp-includes/
