@@ -1,0 +1,661 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blauner\n"
+"POT-Creation-Date: 2022-08-04 11:02+0200\n"
+"PO-Revision-Date: 2022-08-04 11:04+0200\n"
+"Last-Translator: Birk Thestrup Blauner <birkblauner@gmail.com>\n"
+"Language-Team: Birk Thestrup Blauner <birkblauner@gmail.com>\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1\n"
+
+#: comments.php:28
+msgid "<span class=\"comments__count\">No</span> Responses"
+msgstr "<span class=\"comments__count\">Ingen</span> Svar"
+
+#: comments.php:28
+msgid "<span class=\"comments__count\">One</span> Response"
+msgstr "<span class=\"comments__count\">1</span> svar"
+
+#: comments.php:28
+msgid "<span class=\"comments__count\">%</span> Responses"
+msgstr "<span class=\"comments__count”>%</span> svar"
+
+#: comments.php:42
+msgid "Comments are closed."
+msgstr "Der er lukket for kommentarer."
+
+#: functions.php:114
+msgid "Main Menu"
+msgstr "Hovedmenu"
+
+#: functions.php:115
+msgid "Mobile Menu"
+msgstr "Mobilmenu"
+
+#: includes/classes/breadcrumb.php:20 partials/header-logo.php:3
+msgid "Home"
+msgstr "Hjem"
+
+#: includes/classes/breadcrumb.php:260
+msgid "Page"
+msgstr "Sider"
+
+#: includes/classes/hero.php:37
+msgid "Hero"
+msgstr "Hero"
+
+#: includes/classes/hero.php:47 includes/classes/hero.php:48
+msgid "Hide hero"
+msgstr "Skjul hero"
+
+#: includes/classes/hero.php:56
+msgid "Alternative title"
+msgstr "Alternativ titel"
+
+#: includes/classes/hero.php:59
+msgid ""
+"Use a different title than the page title. HTML inline elements are allowed "
+"(e.g. links and bold text)."
+msgstr ""
+"Dette felt overskriver sidetitlen. HTML inlineelementer er tilladt (f.eks. "
+"fed/kursiv tekst, links)."
+
+#: includes/classes/hero.php:66
+msgid "Intro text"
+msgstr "Introtekst"
+
+#: includes/classes/hero.php:75
+msgid "Link"
+msgstr "Link"
+
+#: includes/classes/hero.php:84
+msgid "Link text"
+msgstr "Linktekst"
+
+#: includes/functions/customizer/404Settings.php:30
+msgid "404 Settings"
+msgstr "404 indstillinger"
+
+#: includes/functions/customizer/404Settings.php:37
+msgid "Title"
+msgstr "Titel"
+
+#: includes/functions/customizer/404Settings.php:44
+msgid "Text"
+msgstr "Tekst"
+
+#: includes/functions/customizer/404Settings.php:51
+msgid "Chose custom page to show as 404 page"
+msgstr "Vælg side der skal vises som 404 side"
+
+#: includes/functions/customizer/VisualSettings.php:27
+msgid "Visual Settings"
+msgstr "Visuelle indstillinger"
+
+#: includes/functions/customizer/VisualSettings.php:37
+msgid "Color 1"
+msgstr "Farve 1"
+
+#: includes/functions/customizer/VisualSettings.php:47
+msgid "Color 2"
+msgstr "Farve 2"
+
+#: includes/functions/customizer/VisualSettings.php:57
+msgid "Color 3"
+msgstr "Farve 3"
+
+#: includes/functions/customizer/VisualSettings.php:67
+msgid "Color 4"
+msgstr "Farve 4"
+
+#: includes/functions/customizer/VisualSettings.php:77
+msgid "Color 5"
+msgstr "Farve 5"
+
+#: includes/functions/customizer/VisualSettings.php:84
+#: includes/functions/customizer/VisualSettings.php:100
+msgid ""
+"Add a link href value from the Embed dialog on Google Fonts. Example: "
+"https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed"
+msgstr ""
+"Tilføj en ’link href’ værdi fra en Google Fonts ’Embed’ dialog. Eksempel: "
+"https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed"
+
+#: includes/functions/customizer/VisualSettings.php:85
+msgid "Header font path"
+msgstr "Titel font sti"
+
+#: includes/functions/customizer/VisualSettings.php:92
+#: includes/functions/customizer/VisualSettings.php:108
+msgid ""
+"Add a CSS rule value from the Embed dialog on Google Fonts. Example: 'IBM "
+"Plex Sans Condensed', sans-serif"
+msgstr ""
+"Tilføj en CSS værdi fra en Google Fonts ’Embed’ dialog. Eksempel:  ’IBM Plex "
+"Sans Condensed’, sans-serif"
+
+#: includes/functions/customizer/VisualSettings.php:93
+msgid "Header font CSS stack"
+msgstr "Titel font CSS stack"
+
+#: includes/functions/customizer/VisualSettings.php:101
+msgid "Text font path"
+msgstr "Tekst font sti"
+
+#: includes/functions/customizer/VisualSettings.php:109
+msgid "Text font CSS stack"
+msgstr "Tekst font CSS stack"
+
+#: includes/functions/customizer/VisualSettings.php:116
+msgid "Hide author on posts"
+msgstr "Skjul forfatter på indlæg"
+
+#: includes/functions/customizer/VisualSettings.php:123
+msgid "Hide date on posts"
+msgstr "Skjul dato på indlæg"
+
+#: includes/functions/customizer/VisualSettings.php:130
+msgid "Hide search"
+msgstr "Skjul søgning"
+
+#: includes/functions/customizer/WooCommerceProductGallery.php:29
+msgid "Product Gallery"
+msgstr "Produktgalleri"
+
+#: includes/functions/customizer/WooCommerceProductGallery.php:37
+msgid "Zoom"
+msgstr "Zoom"
+
+#: includes/functions/customizer/WooCommerceProductGallery.php:44
+msgid "Ligthbox"
+msgstr "Lightbox"
+
+#: includes/functions/customizer/WooCommerceProductGallery.php:51
+msgid "Slider"
+msgstr "Slider"
+
+#: includes/functions/customizer/WooCommerceProductListAsTable.php:34
+msgid "WooCommerce Product list as table"
+msgstr "WooCommerce Produktliste som tabel"
+
+#: includes/functions/customizer/WooCommerceProductListAsTable.php:41
+msgid "Display product list as table"
+msgstr "Vis produktliste som tabel"
+
+#: includes/functions/customizer/WooCommerceProductListAsTable.php:50
+msgid "Display product lists as table"
+msgstr "Vis produktliste som tabel"
+
+#: includes/functions/gravity-forms.php:21
+msgid "Submit"
+msgstr "Send"
+
+#: includes/functions/helpers.php:26
+msgid "Read more"
+msgstr "Læs mere"
+
+#: includes/functions/page-settings.php:36
+msgid "Page Layout"
+msgstr "Sidelayout"
+
+#: includes/functions/page-settings.php:40
+msgid "Normal page"
+msgstr "Normal side"
+
+#: includes/functions/page-settings.php:41
+msgid "Widget page"
+msgstr "Widgetside"
+
+#: includes/functions/page-settings.php:46
+msgid "Show process menu"
+msgstr "Vis procesmenu"
+
+#: includes/functions/page-settings.php:58
+msgid "Page Options"
+msgstr "Sideindstilllinger"
+
+#: includes/functions/setup-sidebars.php:13
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: includes/functions/setup-sidebars.php:15
+msgid "This is the primary sidebar. Shows up on all pages."
+msgstr "Dette er den primære sidebar. Den vises på alle sider."
+
+#: includes/functions/setup-sidebars.php:26
+msgid "Footer"
+msgstr "Footer"
+
+#: includes/functions/theme-settings.php:105
+msgid "Primary Color"
+msgstr "Primærfarve"
+
+#: includes/functions/theme-settings.php:114
+msgid "Secondary Color"
+msgstr "Sekundærfarve"
+
+#: includes/functions/theme-settings.php:123
+msgid "Contrast Color 1"
+msgstr "Kontrastfarve 1"
+
+#: includes/functions/theme-settings.php:132
+msgid "Contrast Color 2"
+msgstr "Kontrastfarve 2"
+
+#: includes/functions/theme-settings.php:141
+msgid "Contrast Color 3"
+msgstr "Kontrastfarve 3"
+
+#: includes/markup/markup-body-top.php:68
+msgid "Skip to content"
+msgstr "Gå til indhold"
+
+#: includes/markup/markup-primary.php:54
+msgid "Site content"
+msgstr "Sideindhold"
+
+#: includes/markup/markup-primary.php:56
+msgid "Page content head section"
+msgstr "Side indholds hovedsektion"
+
+#: includes/markup/markup-primary.php:82
+msgid "Content footer section"
+msgstr "Sideindholds bundsektion"
+
+#: includes/markup/markup-primary.php:99
+msgid "Primary content"
+msgstr "Primært indhold"
+
+#: partials/archive-header.php:10
+msgid "Search Results for:"
+msgstr "Søgeresultater:"
+
+#: partials/archive-header.php:25 partials/archive-header.php:28
+#: partials/archive-header.php:31
+msgid "Archive:"
+msgstr "Arkiv:"
+
+#: partials/archive-header.php:35
+msgid "Author:"
+msgstr "Forfatter:"
+
+#: partials/navigation-main.php:21
+msgid "Menu"
+msgstr "Menu"
+
+#: partials/post-metadata.php:3
+msgid "Written by:"
+msgstr "Skrevet af:"
+
+#: partials/post-metadata.php:8
+msgid "Date:"
+msgstr "Dato:"
+
+#: partials/post-metadata.php:16
+msgid "Categories:"
+msgstr "Kategorier:"
+
+#: partials/post-metadata.php:23
+msgid "Tags:"
+msgstr "Tags:"
+
+#: partials/post-terms.php:5
+msgid "Categories"
+msgstr "Kategorier"
+
+#: partials/post-terms.php:12
+msgid "Tags"
+msgstr "Tags"
+
+#: partials/searchform-header.php:12
+msgid "Enter searchword…"
+msgstr "Indtast dit søgeord…"
+
+#: searchform.php:12 searchform.php:13
+msgid "Hit enter to Search..."
+msgstr "Tryk enter for at søge…"
+
+#: template-parts/content-404.php:12
+msgid "404 - Not Found"
+msgstr "404 - Ikke fundet"
+
+#: template-parts/content-404.php:13
+msgid "The content you were looking for may have been moved or unpublished"
+msgstr ""
+"Det kan godt være at du har tastet forkert eller fulgt et gammelt link til "
+"en nedlagt side"
+
+#: template-parts/search-not-found.php:11
+#, php-format
+msgid "Sorry, we didn't find any results for <strong>%s</strong>."
+msgstr "Vi fandt desværre ikke noget om <strong>%s</strong>."
+
+#~ msgid "Secondary Menu"
+#~ msgstr "Sekundær Menu"
+
+#~ msgid "Size"
+#~ msgstr "Størrelse"
+
+#~ msgid "Choose hero height. Hero can only be large if it has image."
+#~ msgstr "Vælg hero størrelse. Hero kan kun være stor, hvis den har billede."
+
+#~ msgid "Small"
+#~ msgstr "Lille"
+
+#~ msgid "Large"
+#~ msgstr "Stor"
+
+#~ msgid "Button link"
+#~ msgstr "Knaplink"
+
+#~ msgid "Button text"
+#~ msgstr "Knaptekst"
+
+#~ msgid ""
+#~ "Blauner: Underlined with arrow. Blauner-rounded: Background color "
+#~ "and rounded corners."
+#~ msgstr ""
+#~ "Blauner: Understreget med pil. Blauner-rounded: Baggrundsfarve og "
+#~ "afrundede hjørner."
+
+#~ msgid "Blauner"
+#~ msgstr "Blauner"
+
+#~ msgid "skamstrupfestival-rounded"
+#~ msgstr "skamstrupfestival-afrundet"
+
+#~ msgid "Button color"
+#~ msgstr "Knapfarve"
+
+#~ msgid "Button text color"
+#~ msgstr "Knap tekst farve"
+
+#~ msgid "Button text color. Only for button style skamstrupfestival-rounded."
+#~ msgstr "Knap tekst farve. Vises kun for knapstil skamstrupfestival-rounded."
+
+#~ msgid "Alignment"
+#~ msgstr "Justering"
+
+#~ msgid "Left"
+#~ msgstr "Ventrestillet"
+
+#~ msgid "Center"
+#~ msgstr "Centreret"
+
+#~ msgid "Right"
+#~ msgstr "Højrestillet"
+
+#~ msgid "Image dimming"
+#~ msgstr "Billededæmpning"
+
+#~ msgid "0%"
+#~ msgstr "0%"
+
+#~ msgid "25%"
+#~ msgstr "25%"
+
+#~ msgid "50%"
+#~ msgstr "50%"
+
+#~ msgid "75%"
+#~ msgstr "75%"
+
+#~ msgid "Background color"
+#~ msgstr "Baggrundsfarve"
+
+#~ msgid "Default is light gray"
+#~ msgstr "Standard er lys grå"
+
+#~ msgid "Text color"
+#~ msgstr "Tekstfarve"
+
+#~ msgid "Default is black"
+#~ msgstr "Standard er sort"
+
+#~ msgid "Overlay color"
+#~ msgstr "Overlayfarve"
+
+#, php-format
+#~ msgid "Widget area specific to %s"
+#~ msgstr "Widgetområde specifik for %s"
+
+#~ msgid "&nbsp; Page Settings"
+#~ msgstr "&nbsp; Sideindstillinger"
+
+#~ msgid "Page w. left aligned sidebar"
+#~ msgstr "Side med venstrestillet sidebar"
+
+#~ msgid "Page w. right aligned sidebar"
+#~ msgstr "Side med højrestillet sidebar"
+
+#~ msgid "Full width Page"
+#~ msgstr "Side i fuld bredde"
+
+#~ msgid "Center-align the logo and menu in the header"
+#~ msgstr "Centrer logo og menu i headeren"
+
+#~ msgid "Footer background color"
+#~ msgstr "Footer baggrundsfarve"
+
+#~ msgid "Footer font color"
+#~ msgstr "Footer fontfarve"
+
+#~ msgid "After Footer"
+#~ msgstr "Efter footeren"
+
+#~ msgid "Banknotes"
+#~ msgstr "Pengesedler"
+
+#~ msgid "Book & pencil"
+#~ msgstr "Bog og blyant"
+
+#~ msgid "Cart"
+#~ msgstr "Indkøbsvogn"
+
+#~ msgid "Charts"
+#~ msgstr "Kort"
+
+#~ msgid "Check"
+#~ msgstr "Check"
+
+#~ msgid "Clock"
+#~ msgstr "Ur"
+
+#~ msgid "Cloud"
+#~ msgstr "Sky"
+
+#~ msgid "Compass"
+#~ msgstr "Kompas"
+
+#~ msgid "Credit card"
+#~ msgstr "Kreditkort"
+
+#~ msgid "Display"
+#~ msgstr "Vis"
+
+#~ msgid "Document"
+#~ msgstr "Dokument"
+
+#~ msgid "Exclamation"
+#~ msgstr "Udråbstegn"
+
+#~ msgid "Flag"
+#~ msgstr "Flag"
+
+#~ msgid "Folders"
+#~ msgstr "Mapper"
+
+#~ msgid "Gear"
+#~ msgstr "Gear"
+
+#~ msgid "Gift"
+#~ msgstr "Gave"
+
+#~ msgid "Globe"
+#~ msgstr "Globus"
+
+#~ msgid "Images"
+#~ msgstr "Billeder"
+
+#~ msgid "Inbox"
+#~ msgstr "Indbakke"
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "Location"
+#~ msgstr "Lokation"
+
+#~ msgid "Loop"
+#~ msgstr "Loop"
+
+#~ msgid "Laptop"
+#~ msgstr "Laptop"
+
+#~ msgid "Lightbulb"
+#~ msgstr "Pære"
+
+#~ msgid "Mail"
+#~ msgstr "Mail"
+
+#~ msgid "Megaphone"
+#~ msgstr "Megafon"
+
+#~ msgid "Message"
+#~ msgstr "Besked"
+
+#~ msgid "Notes"
+#~ msgstr "Noter"
+
+#~ msgid "Paperplane"
+#~ msgstr "Papirsfly"
+
+#~ msgid "Pencil"
+#~ msgstr "Pensel"
+
+#~ msgid "Pin"
+#~ msgstr "Nål"
+
+#~ msgid "Play button"
+#~ msgstr "Play knap"
+
+#~ msgid "Question"
+#~ msgstr "Spørgsmål"
+
+#~ msgid "RSS"
+#~ msgstr "RSS"
+
+#~ msgid "Share"
+#~ msgstr "Del"
+
+#~ msgid "Smartphone"
+#~ msgstr "Smartphone"
+
+#~ msgid "Spread text"
+#~ msgstr "Fordel tekst"
+
+#~ msgid "Star"
+#~ msgstr "Stjerne"
+
+#~ msgid "Todo list"
+#~ msgstr "Todo liste"
+
+#~ msgid "Volume"
+#~ msgstr "Volume"
+
+#~ msgid "Webpage"
+#~ msgstr "Webside"
+
+#~ msgid "World"
+#~ msgstr "Verden"
+
+#~ msgid "Main content"
+#~ msgstr "Hovedindhold"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Phone"
+#~ msgstr "Telefon"
+
+#~ msgid "Mobile"
+#~ msgstr "Mobil"
+
+#~ msgid "Category:"
+#~ msgstr "Kategorier:"
+
+#~ msgid "Tag:"
+#~ msgstr "Tag:"
+
+#~ msgid ""
+#~ "This logo is used when the user scrolls down the page and the menu "
+#~ "becomes 'sticky'."
+#~ msgstr ""
+#~ "Logoet anvendes, når brugeren scroller ned af siden og menuen bliver "
+#~ "'sticky'."
+
+#~ msgid "Logo on scroll"
+#~ msgstr "Logo ved scroll"
+
+#~ msgid "Select logo"
+#~ msgstr "Vælg logo"
+
+#~ msgid "Change logo"
+#~ msgstr "Skift logo"
+
+#~ msgid "No logo selected"
+#~ msgstr "Intet logo valgt"
+
+#~ msgid "Choose logo"
+#~ msgstr "Vælg logo"
+
+#~ msgid "Font 1 path"
+#~ msgstr "Font 1 sti"
+
+#~ msgid "Font 2 path"
+#~ msgstr "Font 2 sti"
+
+#~ msgid "Font 2 CSS stack"
+#~ msgstr "Font 2 CSS"
+
+#~ msgid "None"
+#~ msgstr "Ingen"
+
+#~ msgid "Search"
+#~ msgstr "Søg"
+
+#~ msgid "Search..."
+#~ msgstr "Søg…"
+
+#~ msgid "Close Menu"
+#~ msgstr "Luk menuem"
+
+#~ msgid "Search for"
+#~ msgstr "Søg efter"
+
+#~ msgid "Main Navigation"
+#~ msgstr "Hovedmenu"
+
+#~ msgid "Theme Options"
+#~ msgstr "Temafunktioner"
+
+#~ msgid "One Column"
+#~ msgstr "En kolon"
+
+#~ msgid "Two Column"
+#~ msgstr "To kolonner"
+
+#~ msgid "Read %s"
+#~ msgstr "Læs %s"
+
+#~ msgid "Nothing Found"
+#~ msgstr "Intet fundet"
+
+#~ msgid "There is no content to show."
+#~ msgstr "Der er ikke fundet noget indhold."
+
+#~ msgid "by"
+#~ msgstr "af"

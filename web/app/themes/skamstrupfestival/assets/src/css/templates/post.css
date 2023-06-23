@@ -1,0 +1,19 @@
+.post-header {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.post-header .post-featured__image {
+	max-width: var(--max-width);
+	margin: 0 auto;
+}
+
+.post-header .post-featured {
+	margin-bottom: var(--spacing-3);
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}

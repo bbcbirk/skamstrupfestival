@@ -1,0 +1,328 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blauner\n"
+"POT-Creation-Date: 2022-08-04 11:02+0200\n"
+"PO-Revision-Date: 2015-02-23 12:50+0100\n"
+"Last-Translator: Birk Thestrup Blauner <birkblauner@gmail.com>\n"
+"Language-Team: Birk Thestrup Blauner <birkblauner@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;esc_attr__;esc_html__;_e;esc_attr_e;esc_html_e;_x:1,2c;_ex:1,2c;esc_attr_x:1,2c;esc_html_x:1,2c;_n:1,2;_nx:4c,1,2;_n_noop:1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: bower_components\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: comments.php:28
+msgid "<span class=\"comments__count\">No</span> Responses"
+msgstr ""
+
+#: comments.php:28
+msgid "<span class=\"comments__count\">One</span> Response"
+msgstr ""
+
+#: comments.php:28
+msgid "<span class=\"comments__count\">%</span> Responses"
+msgstr ""
+
+#: comments.php:42
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:114
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:115
+msgid "Mobile Menu"
+msgstr ""
+
+#: includes/classes/breadcrumb.php:20 partials/header-logo.php:3
+msgid "Home"
+msgstr ""
+
+#: includes/classes/breadcrumb.php:260
+msgid "Page"
+msgstr ""
+
+#: includes/classes/hero.php:37
+msgid "Hero"
+msgstr ""
+
+#: includes/classes/hero.php:47 includes/classes/hero.php:48
+msgid "Hide hero"
+msgstr ""
+
+#: includes/classes/hero.php:56
+msgid "Alternative title"
+msgstr ""
+
+#: includes/classes/hero.php:59
+msgid "Use a different title than the page title. HTML inline elements are allowed (e.g. links and bold text)."
+msgstr ""
+
+#: includes/classes/hero.php:66
+msgid "Intro text"
+msgstr ""
+
+#: includes/classes/hero.php:75
+msgid "Link"
+msgstr ""
+
+#: includes/classes/hero.php:84
+msgid "Link text"
+msgstr ""
+
+#: includes/functions/customizer/404Settings.php:30
+msgid "404 Settings"
+msgstr ""
+
+#: includes/functions/customizer/404Settings.php:37
+msgid "Title"
+msgstr ""
+
+#: includes/functions/customizer/404Settings.php:44
+msgid "Text"
+msgstr ""
+
+#: includes/functions/customizer/404Settings.php:51
+msgid "Chose custom page to show as 404 page"
+msgstr ""
+
+#: includes/functions/customizer/VisualSettings.php:27
+msgid "Visual Settings"
+msgstr ""
+
+#: includes/functions/customizer/VisualSettings.php:37
+msgid "Color 1"
+msgstr ""
+
+#: includes/functions/customizer/VisualSettings.php:47
+msgid "Color 2"
+msgstr ""
+
+#: includes/functions/customizer/VisualSettings.php:57
+msgid "Color 3"
+msgstr ""
+
+#: includes/functions/customizer/VisualSettings.php:67
+msgid "Color 4"
+msgstr ""
+
+#: includes/functions/customizer/VisualSettings.php:77
+msgid "Color 5"
+msgstr ""
+
+#: includes/functions/customizer/VisualSettings.php:84
+#: includes/functions/customizer/VisualSettings.php:100
+msgid "Add a link href value from the Embed dialog on Google Fonts. Example: https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed"
+msgstr ""
+
+#: includes/functions/customizer/VisualSettings.php:85
+msgid "Header font path"
+msgstr ""
+
+#: includes/functions/customizer/VisualSettings.php:92
+#: includes/functions/customizer/VisualSettings.php:108
+msgid "Add a CSS rule value from the Embed dialog on Google Fonts. Example: 'IBM Plex Sans Condensed', sans-serif"
+msgstr ""
+
+#: includes/functions/customizer/VisualSettings.php:93
+msgid "Header font CSS stack"
+msgstr ""
+
+#: includes/functions/customizer/VisualSettings.php:101
+msgid "Text font path"
+msgstr ""
+
+#: includes/functions/customizer/VisualSettings.php:109
+msgid "Text font CSS stack"
+msgstr ""
+
+#: includes/functions/customizer/VisualSettings.php:116
+msgid "Hide author on posts"
+msgstr ""
+
+#: includes/functions/customizer/VisualSettings.php:123
+msgid "Hide date on posts"
+msgstr ""
+
+#: includes/functions/customizer/VisualSettings.php:130
+msgid "Hide search"
+msgstr ""
+
+#: includes/functions/customizer/WooCommerceProductGallery.php:29
+msgid "Product Gallery"
+msgstr ""
+
+#: includes/functions/customizer/WooCommerceProductGallery.php:37
+msgid "Zoom"
+msgstr ""
+
+#: includes/functions/customizer/WooCommerceProductGallery.php:44
+msgid "Ligthbox"
+msgstr ""
+
+#: includes/functions/customizer/WooCommerceProductGallery.php:51
+msgid "Slider"
+msgstr ""
+
+#: includes/functions/customizer/WooCommerceProductListAsTable.php:34
+msgid "WooCommerce Product list as table"
+msgstr ""
+
+#: includes/functions/customizer/WooCommerceProductListAsTable.php:41
+msgid "Display product list as table"
+msgstr ""
+
+#: includes/functions/customizer/WooCommerceProductListAsTable.php:50
+msgid "Display product lists as table"
+msgstr ""
+
+#: includes/functions/gravity-forms.php:21
+msgid "Submit"
+msgstr ""
+
+#: includes/functions/helpers.php:26
+msgid "Read more"
+msgstr ""
+
+#: includes/functions/page-settings.php:36
+msgid "Page Layout"
+msgstr ""
+
+#: includes/functions/page-settings.php:40
+msgid "Normal page"
+msgstr ""
+
+#: includes/functions/page-settings.php:41
+msgid "Widget page"
+msgstr ""
+
+#: includes/functions/page-settings.php:46
+msgid "Show process menu"
+msgstr ""
+
+#: includes/functions/page-settings.php:58
+msgid "Page Options"
+msgstr ""
+
+#: includes/functions/setup-sidebars.php:13
+msgid "Sidebar"
+msgstr ""
+
+#: includes/functions/setup-sidebars.php:15
+msgid "This is the primary sidebar. Shows up on all pages."
+msgstr ""
+
+#: includes/functions/setup-sidebars.php:26
+msgid "Footer"
+msgstr ""
+
+#: includes/functions/theme-settings.php:105
+msgid "Primary Color"
+msgstr ""
+
+#: includes/functions/theme-settings.php:114
+msgid "Secondary Color"
+msgstr ""
+
+#: includes/functions/theme-settings.php:123
+msgid "Contrast Color 1"
+msgstr ""
+
+#: includes/functions/theme-settings.php:132
+msgid "Contrast Color 2"
+msgstr ""
+
+#: includes/functions/theme-settings.php:141
+msgid "Contrast Color 3"
+msgstr ""
+
+#: includes/markup/markup-body-top.php:68
+msgid "Skip to content"
+msgstr ""
+
+#: includes/markup/markup-primary.php:54
+msgid "Site content"
+msgstr ""
+
+#: includes/markup/markup-primary.php:56
+msgid "Page content head section"
+msgstr ""
+
+#: includes/markup/markup-primary.php:82
+msgid "Content footer section"
+msgstr ""
+
+#: includes/markup/markup-primary.php:99
+msgid "Primary content"
+msgstr ""
+
+#: partials/archive-header.php:10
+msgid "Search Results for:"
+msgstr ""
+
+#: partials/archive-header.php:25 partials/archive-header.php:28
+#: partials/archive-header.php:31
+msgid "Archive:"
+msgstr ""
+
+#: partials/archive-header.php:35
+msgid "Author:"
+msgstr ""
+
+#: partials/navigation-main.php:21
+msgid "Menu"
+msgstr ""
+
+#: partials/post-metadata.php:3
+msgid "Written by:"
+msgstr ""
+
+#: partials/post-metadata.php:8
+msgid "Date:"
+msgstr ""
+
+#: partials/post-metadata.php:16
+msgid "Categories:"
+msgstr ""
+
+#: partials/post-metadata.php:23
+msgid "Tags:"
+msgstr ""
+
+#: partials/post-terms.php:5
+msgid "Categories"
+msgstr ""
+
+#: partials/post-terms.php:12
+msgid "Tags"
+msgstr ""
+
+#: partials/searchform-header.php:12
+msgid "Enter searchword…"
+msgstr ""
+
+#: searchform.php:12 searchform.php:13
+msgid "Hit enter to Search..."
+msgstr ""
+
+#: template-parts/content-404.php:12
+msgid "404 - Not Found"
+msgstr ""
+
+#: template-parts/content-404.php:13
+msgid "The content you were looking for may have been moved or unpublished"
+msgstr ""
+
+#: template-parts/search-not-found.php:11
+#, php-format
+msgid "Sorry, we didn't find any results for <strong>%s</strong>."
+msgstr ""

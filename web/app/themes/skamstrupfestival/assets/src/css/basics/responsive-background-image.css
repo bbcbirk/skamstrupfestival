@@ -1,0 +1,22 @@
+.responsive-background-image img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	object-position: center;
+}
+
+.responsive-background-video {
+	position: relative;
+
+	video {
+		width: auto;
+		height: auto;
+		min-width: 100%;
+		min-height: 100%;
+		overflow: hidden;
+		transform: translate(-50%, -50%);
+		position: absolute;
+		top: 50%;
+		left: 50%;
+	}
+}

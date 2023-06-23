@@ -1,0 +1,18 @@
+.error404 {
+	.content-main {
+		margin: var(--spacing-10) 0;
+	}
+
+	.post-header__title {
+		margin: 0 auto var(--spacing-4);
+		max-width: var(--max-width-list);
+	}
+
+	.not-found-message {
+		text-align: center;
+	}
+
+	.search-form {
+		margin: var(--spacing-4) auto;
+	}
+}

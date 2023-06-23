@@ -1,0 +1,53 @@
+module.exports = exports = {
+  env: {
+    browser: true,
+    commonjs: true,
+    es6: true,
+    jquery: true,
+    node: true,
+  },
+  extends: ['standard', 'eslint:recommended', 'prettier'],
+  globals: {
+    Atomics: 'readonly',
+    Blob: true,
+    FileReader: true,
+    FormData: true,
+    React: true,
+    ReactDOM: true,
+    SharedArrayBuffer: 'readonly',
+    document: true,
+    localStorage: true,
+    navigator: true,
+    window: true,
+    createRequire: true,
+    DEBUG: true,
+  },
+  plugins: ['import', 'jsx-a11y', 'react', 'react-hooks', 'promise'],
+  rules: {
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
+    'react/jsx-filename-extension': [
+      1,
+      {
+        extensions: ['.js', '.jsx'],
+      },
+    ],
+    camelcase: 'error',
+    'import/imports-first': ['error', 'absolute-first'],
+    'import/newline-after-import': 'error',
+    'object-shorthand': 0,
+    'no-console': 0,
+    'no-extra-semi': 2,
+    'no-multiple-empty-lines': [
+      'error',
+      {
+        max: 1,
+        maxEOF: 1,
+      },
+    ],
+    'react/prop-types': 0,
+    semi: 0,
+    'space-before-function-paren': 0,
+    'eol-last': 2,
+  },
+};

@@ -1,0 +1,11 @@
+/* PostCSS variables */
+$max-width:              1440;
+$max-width-header:       1440;
+$max-width-list:         1280;
+$max-width-pagination:   1280;
+$max-width-content-wide: 1440;
+$max-width-content-narrow: 1080;
+$max-width-content:      1280;
+$grid-gutter-width:      40;
+$grid-col-width:         80;
+$root-em-size:           16;

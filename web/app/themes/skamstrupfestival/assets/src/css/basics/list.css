@@ -1,0 +1,43 @@
+ul:not([class]),
+ol:not([class]) {
+	overflow: hidden;
+	padding-left: var(--spacing-5);
+	line-height: var(--base-line-height);
+	font-size: var(--font-size-medium);
+	color: var(--color-text);
+	list-style: none;
+
+	li {
+		position: relative;
+	}
+}
+
+ul:not([class]) {
+	li::before {
+		content: '';
+		left: -25px;
+		position: absolute;
+		top: 0.65em;
+		background-color: var(--color-text);
+		display: inline-block;
+		width: 5px;
+		height: 5px;
+		border-radius: 50%;
+	}
+}
+
+ol:not([class]) {
+	counter-reset: li;
+
+	li {
+		counter-increment: li;
+
+		&::before {
+			content: '.' counter(li);
+			position: absolute;
+			left: -30px;
+			text-align: right;
+			direction: rtl;
+		}
+	}
+}

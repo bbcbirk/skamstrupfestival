@@ -1,0 +1,16 @@
+.buildpath
+.project
+.settings
+._*
+.DS_Store
+.sass-cache
+Thumbs.db
+bower_components
+node_modules
+assets/dist/css/*
+assets/dist/js/*
+!assets/dist/css/*.min.css
+!assets/dist/js/*.min.js
+*.map
+*.log
+npm-debug.log

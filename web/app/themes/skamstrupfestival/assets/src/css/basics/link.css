@@ -1,0 +1,14 @@
+a {
+	color: var(--base-link-color);
+	transition: all 0.08s;
+
+	&:hover,
+	&:focus {
+		color: var(--hover-link-color);
+		opacity: var(--base-hover-opacity);
+	}
+}
+
+.no-text-decoration a {
+	text-decoration: none;
+}

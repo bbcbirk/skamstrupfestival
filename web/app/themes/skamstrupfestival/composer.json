@@ -1,0 +1,16 @@
+{
+    "name": "wp/skamstrupfestival",
+    "description": "A full-featured WordPress theme by Birk Thestrup Blauner",
+    "type": "wordpress-theme",
+    "keywords": ["wordpress", "theme"],
+    "authors": [
+        {
+            "name": "Birk Thestrup Blauner",
+            "email": "birkblauner@gmail.com",
+            "homepage": "https://blauner.dk/"
+        }
+    ],
+    "require": {
+        "htmlburger/carbon-fields": "^3.6"
+    }
+}

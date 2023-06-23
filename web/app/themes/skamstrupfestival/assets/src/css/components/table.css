@@ -1,0 +1,39 @@
+.post-content {
+	.wp-block-table {
+		border-collapse: separate;
+		border-spacing: 0.25rem;
+		margin: var(--spacing-2) auto;
+		width: 100%;
+
+		tr,
+		th,
+		td {
+			text-align: left;
+		}
+
+		th {
+			background-color: var(--color-1);
+			color: var(--color-5);
+			padding: var(--spacing-1);
+		}
+
+		td {
+			border: none;
+			padding: var(--spacing-1);
+		}
+
+		tr:nth-child(odd) {
+			td {
+				background-color: rgba(0, 0, 0, 0.05);
+			}
+		}
+
+		tr:first-child {
+			td {
+				background-color: var(--color-1);
+				color: #fff;
+				font-weight: var(--font-weight-semibold);
+			}
+		}
+	}
+}

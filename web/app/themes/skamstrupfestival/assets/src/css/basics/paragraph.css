@@ -1,0 +1,30 @@
+p {
+	font-size: var(--base-font-size);
+	line-height: 1.8em;
+	margin-top: 0.25em;
+	margin-bottom: 1em;
+
+	strong {
+		font-weight: var(--font-weight-semibold);
+	}
+
+	&.italic-text {
+		font-family: proxima-nova;
+		font-style: italic;
+		letter-spacing: 1px;
+		font-weight: 400;
+		font-size: 1.25rem;
+
+		@media (--large-up) {
+			font-size: 1.4rem;
+		}
+	}
+
+	&.has-large-font-size {
+		font-size: var(--font-size-medium) !important;
+
+		@media (--large-up) {
+			font-size: var(--font-size-h2) !important;
+		}
+	}
+}
