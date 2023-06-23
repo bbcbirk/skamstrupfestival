@@ -1,0 +1,14 @@
+/**
+ * Basics
+ */
+@import 'root-variables.css';
+@import 'media-queries.css';
+@import 'basics/swatch.css';
+
+/*
+ * Temporary fix - should be removed once wp/gutenberg fixes this
+ * Fixed styling bug in gutenberg backend editor on longer pages.
+ */
+.editor-writing-flow {
+	height: auto;
+}

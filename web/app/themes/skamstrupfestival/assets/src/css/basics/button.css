@@ -1,0 +1,53 @@
+.wp-block-button {
+	margin: 0.25em auto 1em;
+	max-width: var(--max-width-content);
+}
+
+.btn,
+.wp-block-button a.wp-block-button__link,
+.woocommerce button.button {
+	position: relative;
+	display: inline-block;
+	background-color: var(--base-button-color);
+	border: 0;
+	border-radius: 2px;
+	color: #fff;
+	font-size: var(--base-font-size);
+	font-family: var(--base-font-family);
+	line-height: 1;
+	margin: var(--spacing-1) 0;
+	padding: var(--spacing-2) var(--spacing-3);
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	transition: all 0.15s ease-in-out;
+
+	&:hover,
+	&:focus {
+		color: #fff;
+		opacity: 0.95;
+	}
+}
+
+.is-style-outline.wp-block-button a.wp-block-button__link {
+	color: #272727;
+	padding: var(--spacing-2) var(--spacing-3);
+
+	&:hover,
+	&:focus {
+		background-color: #272727;
+		border-color: #272727;
+		color: #fff;
+	}
+}
+
+.light-style.is-style-outline.wp-block-button a.wp-block-button__link {
+	color: #fff;
+
+	&:hover,
+	&:focus {
+		background-color: #fff;
+		border-color: #fff;
+		color: #272727;
+	}
+}

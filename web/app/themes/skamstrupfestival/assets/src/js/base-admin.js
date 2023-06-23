@@ -1,0 +1,3 @@
+/*
+ * base admin javascript goes here...
+ */

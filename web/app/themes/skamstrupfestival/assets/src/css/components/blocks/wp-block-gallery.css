@@ -1,0 +1,16 @@
+.post-content > .wp-block-gallery {
+	&.alignfull {
+		max-width: none;
+		padding-inline: 0;
+	}
+
+	&.no-gap {
+		gap: 0;
+	}
+
+	&.landscape-mode {
+		& > .wp-block-image {
+			aspect-ratio: 4 / 3;
+		}
+	}
+}

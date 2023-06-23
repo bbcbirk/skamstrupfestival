@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: var(--root-em-size);
+	background-color: var(--color-3);
+}
+
+body {
+	position: relative;
+	font-family: var(--base-font-family);
+	line-height: var(--base-line-height);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: var(--color-text);
+	background-color: var(--color-4);
+}
+
+.container {
+	max-width: calc(var(--max-width) + (2 * var(--spacing-2)));
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: var(--spacing-2);
+	padding-right: var(--spacing-2);
+	width: 100%;
+}
+
+.site-content {
+	padding-top: 70px;
+
+	@media (--large-up) {
+		padding-top: 100px;
+	}
+}
+
+/* For posts and pages */
+.post-content > * {
+	max-width: calc(var(--max-width-content) + (2 * var(--spacing-2)));
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: var(--spacing-2);
+	padding-right: var(--spacing-2);
+
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+.has-hero-image,
+.has-hero-video {
+	.post-content > *:first-child {
+		&:not(.wp-block-cover) {
+			margin-top: var(--spacing-6);
+		}
+	}
+}
+
+/* Fix WP adminbar position */
+@media screen and (max-width: 600px) {
+	#wpadminbar {
+		position: fixed;
+	}
+}

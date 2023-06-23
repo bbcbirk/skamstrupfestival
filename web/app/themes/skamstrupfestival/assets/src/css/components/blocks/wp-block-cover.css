@@ -1,0 +1,11 @@
+.wp-block-cover {
+	&.alignfull {
+		max-width: none;
+
+		.wp-block-cover__inner-container > * {
+			max-width: calc(var(--max-width-content-narrow) + (2 * var(--spacing-2)));
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}

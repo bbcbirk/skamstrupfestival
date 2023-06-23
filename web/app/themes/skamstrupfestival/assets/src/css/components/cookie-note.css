@@ -1,0 +1,59 @@
+/* Cookies */
+.cc-cookies {
+	box-sizing: content-box;
+	width: 90%;
+	padding: 0.6em 5%;
+	background: var(--color-1);
+	color: #fff;
+	font-size: var(--font-size-small);
+	font-weight: var(--font-weight-light);
+	z-index: 99999;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: auto;
+}
+
+.cc-cookies a,
+.cc-cookies a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+}
+
+.cc-cookies a:hover,
+.cc-cookies a:focus {
+	text-decoration: underline;
+}
+
+.cc-cookies a.cc-cookie-accept {
+	display: inline-block;
+	color: var(--base-font-color);
+	font-weight: var(--font-weight-light);
+	text-decoration: none;
+	padding: 0.35em 1em;
+	margin: 0.35em 0 0 2em;
+	border: 1px solid #fff;
+}
+
+.cc-cookies a:hover.cc-cookie-accept,
+.cc-cookies a:focus.cc-cookie-accept {
+	opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+	.cc-cookies a.cc-cookie-accept {
+		display: block;
+		margin: 1em 33%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.cc-cookies a.cc-cookie-accept {
+		display: block;
+		margin: 1em auto;
+	}
+}

@@ -1,0 +1,45 @@
+.skamstrupfestival-some {
+	.some-container {
+		overflow: hidden;
+
+		.some-links__wrapper {
+			margin: 0 -10px;
+			overflow: hidden;
+		}
+
+		a.some-links {
+			float: left;
+			margin: 0 var(--spacing-1) var(--spacing-2);
+		}
+
+		svg {
+			vertical-align: middle;
+		}
+
+		.widget__description {
+			clear: both;
+			color: var(--color-5);
+			display: block;
+			float: none;
+			width: 100%;
+		}
+	}
+}
+
+.sidebar .widget-area .some-container {
+	a {
+		color: transparent;
+	}
+
+	path {
+		fill: var(--base-link-color);
+	}
+
+	circle {
+		stroke: var(--base-link-color);
+	}
+
+	.widget__description {
+		color: var(--color-text);
+	}
+}

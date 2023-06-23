@@ -1,0 +1,76 @@
+.post-content {
+	figure.wp-block-video,
+	figure.wp-block-embed {
+		margin: 1rem auto 2rem;
+		max-width: var(--max-width-content);
+
+		figcaption {
+			color: var(--color-text);
+			font-size: var(--font-size-small);
+			margin: 0.5rem 0 0;
+			padding: 0;
+			text-align: center;
+		}
+
+		&.alignleft {
+			margin-right: 2rem;
+		}
+
+		&.alignright {
+			margin-left: 2rem;
+		}
+	}
+
+	figure.is-type-video {
+		.wp-block-embed__wrapper {
+			aspect-ratio: 16 / 9;
+		}
+
+		iframe {
+			height: 100%;
+			width: 100%;
+		}
+	}
+
+	iframe {
+		display: block;
+		border: none;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100% !important;
+		max-width: var(--max-width-content);
+		margin-top: var(--spacing-4);
+		margin-bottom: var(--spacing-4);
+
+		@media (--medium-up) {
+			margin-top: var(--spacing-6);
+			margin-bottom: var(--spacing-6);
+		}
+	}
+
+	div.embed-container {
+		padding: 0;
+
+		@media (--medium-up) {
+			padding: 0 var(--spacing-2);
+		}
+	}
+
+	.embed-container__inner {
+		aspect-ratio: 16 / 9;
+
+		iframe {
+			height: 100%;
+			width: 100%;
+		}
+	}
+
+	.wp-post-oembed-wrap > .embed-container {
+		margin: 0;
+	}
+
+	/* Maybe relevant - Match the embed if it is the very first element in the post content */
+	.post-wrapper :first-child.embed-container {
+		margin-top: 0;
+	}
+}

@@ -1,0 +1,92 @@
+/* stylelint-disable declaration-colon-space-after */
+@import 'postcss-variables.css';
+
+/* Custom properties */
+:root {
+	/* Grid */
+	--max-width:              calc(($(max-width) / $(root-em-size)) * 1rem);
+	--max-width-header:       calc(($(max-width-header) / $(root-em-size)) * 1rem);
+	--max-width-list:         calc(($(max-width-list) / $(root-em-size)) * 1rem);
+	--max-width-pagination:   calc(($(max-width-pagination) / $(root-em-size)) * 1rem);
+	--max-width-content-wide: calc(($(max-width-content-wide) / $(root-em-size)) * 1rem);
+	--max-width-content-narrow: calc(($(max-width-content-narrow) / $(root-em-size)) * 1rem);
+	--max-width-content:      calc(($(max-width-content) / $(root-em-size)) * 1rem);
+	--grid-gutter-width:      calc(($(grid-gutter-width) / $(root-em-size)) * 1rem);
+	--grid-col-width:         calc(($(grid-col-width) / $(root-em-size)) * 1rem);
+
+	/* Typography */
+	--base-font-family:    Arial, Helvetica, sans-serif;
+	--base-font-family-2:    Verdana, Geneva, sans-serif;
+	--font-family-heading: var(--base-font-family);
+	--font-family-heading-2: "Times New Roman", Times, serif;
+
+	/* Type: Sizes */
+	--root-em-size:           16px; /* Used to define the root em size on the `html` element. All other sizes should be relative to this. */
+	--base-font-size:         rem(16);
+	--font-size-caption:      autosize(400, 1920, 24, 32);
+	--font-size-excerpt:      autosize(400, 1920, 18, 20);
+	--font-size-small:        rem(14);
+	--font-size-medium:       rem(20);
+	--font-size-large:        rem(26);
+	--font-size-h1:           autosize(400, 1920, 30, 80);
+	--font-size-h2:           autosize(400, 1920, 26, 42);
+	--font-size-h3:           autosize(400, 1920, 32, 42);
+	--font-size-h4:           autosize(400, 1920, 30, 36);
+	--font-size-h5:           autosize(400, 1920, 28, 32);
+	--font-size-h6:           autosize(400, 1920, 24, 28);
+	--font-size-widget:       rem(20);
+	--font-size-widget-title: rem(24);
+
+	/* Type: Line height */
+	--base-line-height:    calc(44 / 32);
+	--line-height-heading: calc(44 / 32);
+
+	/* Type: Font weight */
+	--font-weight-thin:      100;
+	--font-weight-light:     200;
+	--font-weight-book:      300;
+	--font-weight-regular:   400;
+	--font-weight-medium:    500;
+	--font-weight-semibold:  600;
+	--font-weight-bold:      700;
+	--font-weight-extrabold: 800;
+	--font-weight-black:     900;
+
+	/* Colors */
+	--color-text:       rgba(26, 26, 26, 0.75);
+	--color-text-light: #fcfcfc;
+	--color-heading:    rgba(26, 26, 26, 0.9);;
+	--color-separator:  #d7d7d7;
+	--color-gray-1:     #ccc;
+
+	/* Link settings */
+	--base-hover-opacity: 0.8;
+	--base-link-color:    var(--color-1);
+	--hover-link-color:   var(--color-1);
+	--base-button-color:  var(--color-1);
+	--hover-button-color: var(--color-1);
+
+	/* Border color */
+	--base-border-color:  #eee;
+	--dark-border-color:  #ddd;
+	--base-border:        1px solid var(--base-border-color);
+	--dark-border:        1px solid var(--dark-border-color);
+	--light-border-color: #f0f0f0;
+	--light-border:       1px solid var(--light-border-color);
+	--border-radius:      3px;
+
+	/* Box shadow */
+	--card-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+	/* Spacing */
+	--spacing-1:  rem(10);
+	--spacing-2:  rem(20);
+	--spacing-3:  rem(30);
+	--spacing-4:  rem(40);
+	--spacing-5:  rem(50);
+	--spacing-6:  rem(60);
+	--spacing-7:  rem(70);
+	--spacing-8:  rem(80);
+	--spacing-9:  rem(90);
+	--spacing-10: rem(100);
+}

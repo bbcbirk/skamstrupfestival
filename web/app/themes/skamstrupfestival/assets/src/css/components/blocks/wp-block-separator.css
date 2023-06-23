@@ -1,0 +1,10 @@
+.post-content > .wp-block-separator {
+	max-width: calc(var(--max-width-content));
+	margin: 1em auto;
+	width: initial;
+
+	&.is-style-wide {
+		max-width: none;
+		margin: 1em 0;
+	}
+}

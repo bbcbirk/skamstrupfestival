@@ -1,0 +1,12 @@
+/* media queries */
+@custom-media --small-down (max-width: 400px);
+@custom-media --small-only (min-width: 401px) and (max-width: 720px);
+@custom-media --small-up (min-width: 401px);
+@custom-media --medium-down (max-width: 720px);
+@custom-media --medium-only (min-width: 721px) and (max-width: 1040px);
+@custom-media --medium-up (min-width: 721px);
+@custom-media --large-down (max-width: 1040px);
+@custom-media --large-only (min-width: 1041px) and (max-width: 1440px);
+@custom-media --large-up (min-width: 1041px);
+@custom-media --xlarge-down (max-width: 1440px);
+@custom-media --xlarge-up (min-width: 1441px);
